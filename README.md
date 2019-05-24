@@ -24,7 +24,7 @@ alex:
   stage: linting
   image: pipelinecomponents/alex:latest
   script:
-    - alex .
+    - alex --why README.md
 ```
 
 ## Versioning
