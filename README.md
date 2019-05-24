@@ -15,7 +15,7 @@
 ## Usage
 
 The image is for running alex, alex is installed in /app/ in case you need to customize the install before usage.
-The image is based on alpine:3.8.
+The image is based on node:10.14-alpine
 
 ## Examples
 
@@ -36,8 +36,7 @@ This project uses [Semantic Versioning][semver] for its version numbering.
 Got questions?
 
 You have several options to get them answered:
-todo: addcommunication channel here
-
+Check the [discord channel][discord]
 You could also [open an issue here][issue]
 
 ## Contributing
@@ -88,6 +87,7 @@ SOFTWARE.
 [dockerhub]: https://hub.docker.com/r/pipelinecomponents/alex
 [license-shield]: https://img.shields.io/badge/License-MIT-green.svg
 [mjrider]: https://gitlab.com/mjrider
+[discord]: https://discord.gg/vhxWFfP
 [gitlabci-shield]: https://img.shields.io/gitlab/pipeline/pipeline-components/alex.svg
 [gitlabci]: https://gitlab.com/pipeline-components/alex/commits/master
 [issue]: https://gitlab.com/pipeline-components/alex/issues
