@@ -29,7 +29,7 @@
     "@types/unist" "*"
     "@types/vfile-message" "*"
 
-alex@^7.1.0:
+alex@7.1.0:
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/alex/-/alex-7.1.0.tgz#e93b28cbf543369a7b9c983c75ac70e0318ea174"
   integrity sha512-6lFIfuUiZkshwmCfho9YUY+/FNyQd8FxTFO1cLAJC/VBmTfPE0UysRfnuskd9Do4N2CA8MYNEI84Mi+iNPlkug==
