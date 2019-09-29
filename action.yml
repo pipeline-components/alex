@@ -1,0 +1,23 @@
+---
+name: "alex"
+description: "alex by Pipeline Components"
+author: "Robbert Müller <spam.me@grols.ch>"
+branding:
+  icon: "flag"
+  color: "green"
+inputs:
+  directory:
+    description: "Directory or files to lint"
+    required: false
+    default: "**/*.md"
+  options:
+    description: "Additional options"
+    required: false
+    default: "--why"
+runs:
+  using: "docker"
+  image: docker://pipelinecomponents/alex
+  args:
+    - alex
+    - "${{ inputs.options }}"
+    - "${{ inputs.directory }}"
