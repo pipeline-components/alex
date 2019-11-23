@@ -5,11 +5,10 @@ COPY --from=entrypoint /entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
 ENV DEFAULTCMD alex
 
-
 WORKDIR /app/
 
 # Generic
-RUN apk add --no-cache musl=1.1.20-r5
+#RUN apk add --no-cache musl=1.1.20-r5
 COPY app /app/
 
 # Node
