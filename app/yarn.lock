@@ -301,17 +301,12 @@ cuss@^1.15.0:
   resolved "https://registry.yarnpkg.com/cuss/-/cuss-1.17.0.tgz#880f52ee8c48a5df6ad2a59c796bd692e173c7df"
   integrity sha512-3ZCx/QsMbJczIwh7A0mFzg4fmugBVf+LS3G310RD5fX6Td2imd9WV+zO1shsN9OkMOjeS3Mk5V28mUrsR6Y6Qg==
 
-debug@^4.0.0:
+debug@^4.0.0, debug@^4.1.0:
   version "4.1.1"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.1.1.tgz#3b72260255109c6b589cee050f1d516139664791"
   integrity sha512-pYAIzeRo8J6KPEaJ0VWOh5Pzkbw/RetuzehGM7QRRX5he4fPHx2rdKMB256ehJCkX+XRQm16eZLqLNS8RSZXZw==
   dependencies:
     ms "^2.1.1"
-
-debug@~0.8.1:
-  version "0.8.1"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-0.8.1.tgz#20ff4d26f5e422cb68a1bacbbb61039ad8c1c130"
-  integrity sha1-IP9NJvXkIstoobrLu2EDmtjBwTA=
 
 decamelize-keys@^1.0.0:
   version "1.1.0"
@@ -486,21 +481,21 @@ get-stream@^5.1.0:
     pump "^3.0.0"
 
 git-diff-tree@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/git-diff-tree/-/git-diff-tree-1.0.0.tgz#141e5641769d065997a6b94c3a2c60e062b54da8"
-  integrity sha1-FB5WQXadBlmXprlMOixg4GK1Tag=
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/git-diff-tree/-/git-diff-tree-1.1.0.tgz#05cd0b2fa9ebf1630ba643fe89d8ccbb2635f7bb"
+  integrity sha512-PdNkH2snpXsKIzho6OWMZKEl+KZG6Zm+1ghQIDi0tEq1sz/S1tDjvNuYrX2ZpomalHAB89OUQim8O6vN+jesNQ==
   dependencies:
-    git-spawned-stream "~0.1.0"
-    pump-chain "^1.0.0"
-    split-transform-stream "~0.1.1"
-    through2 "~2.0.0"
+    git-spawned-stream "1.0.1"
+    pump-chain "1.0.0"
+    split-transform-stream "0.1.1"
+    through2 "2.0.0"
 
-git-spawned-stream@~0.1.0:
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/git-spawned-stream/-/git-spawned-stream-0.1.1.tgz#38927da02e52d862396861bf996557452643802b"
-  integrity sha1-OJJ9oC5S2GI5aGG/mWVXRSZDgCs=
+git-spawned-stream@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/git-spawned-stream/-/git-spawned-stream-1.0.1.tgz#841cda93d106eeb2c71a3c1af44ec484b440248b"
+  integrity sha512-W2Zo3sCiq5Hqv1/FLsNmGomkXdyimmkHncGzqjBHh7nWx+CbH5dkWGb6CiFdknooL7wfeZJ3gz14KrXl/gotCw==
   dependencies:
-    debug "~0.8.1"
+    debug "^4.1.0"
     spawn-to-readstream "~0.1.3"
 
 glob@^7.0.3:
@@ -677,7 +672,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.1, inherits@~2.0.3:
+inherits@2, inherits@^2.0.1, inherits@^2.0.3, inherits@~2.0.1:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
   integrity sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
@@ -1226,10 +1221,10 @@ prepend-http@^2.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-2.0.0.tgz#e92434bfa5ea8c19f41cdfd401d741a3c819d897"
   integrity sha1-6SQ0v6XqjBn0HN/UAddBo8gZ2Jc=
 
-process-nextick-args@~2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-2.0.0.tgz#a37d732f4271b4ab1ad070d35508e8290788ffaa"
-  integrity sha512-MtEC1TqN0EU5nephaJ4rAtThHtC86dNN9qCuEhtshvpVBkAW5ZO7BASN9REnF9eoXGcRub+pFuKEpOHE+HbEMw==
+process-nextick-args@~1.0.6:
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
+  integrity sha1-FQ4gt1ZZCtP5EJPyWk8q2L/zC6M=
 
 property-information@^5.0.0, property-information@^5.0.1:
   version "5.1.0"
@@ -1243,7 +1238,7 @@ pseudomap@^1.0.2:
   resolved "https://registry.yarnpkg.com/pseudomap/-/pseudomap-1.0.2.tgz#f052a28da70e618917ef0a8ac34c1ae5a68286b3"
   integrity sha1-8FKijacOYYkX7wqKw0wa5aaChrM=
 
-pump-chain@^1.0.0:
+pump-chain@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/pump-chain/-/pump-chain-1.0.0.tgz#7d57d8d9ad8181ea808f5413c4f2bc1e786a5e37"
   integrity sha1-fVfY2a2BgeqAj1QTxPK8HnhqXjc=
@@ -1324,17 +1319,16 @@ readable-stream@~1.0.17:
     isarray "0.0.1"
     string_decoder "~0.10.x"
 
-readable-stream@~2.3.6:
-  version "2.3.6"
-  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.3.6.tgz#b11c27d88b8ff1fbe070643cf94b0c79ae1b0aaf"
-  integrity sha512-tQtKA9WIAhBF3+VLAseyMqZeBjW0AHJoxOtYqSUZNJxauErmLbVm2FW1y+J/YA9dUrAC39ITejlZWhVIwawkKw==
+readable-stream@~2.0.0:
+  version "2.0.6"
+  resolved "https://registry.yarnpkg.com/readable-stream/-/readable-stream-2.0.6.tgz#8f90341e68a53ccc928788dacfcd11b36eb9b78e"
+  integrity sha1-j5A0HmilPMySh4jaz80Rs265t44=
   dependencies:
     core-util-is "~1.0.0"
-    inherits "~2.0.3"
+    inherits "~2.0.1"
     isarray "~1.0.0"
-    process-nextick-args "~2.0.0"
-    safe-buffer "~5.1.1"
-    string_decoder "~1.1.1"
+    process-nextick-args "~1.0.6"
+    string_decoder "~0.10.x"
     util-deprecate "~1.0.1"
 
 redent@^2.0.0:
@@ -1487,7 +1481,7 @@ retext-profanities@~5.0.0:
     pluralize "^8.0.0"
     quotation "^1.0.0"
 
-safe-buffer@^5.0.1, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
+safe-buffer@^5.0.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
   integrity sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
@@ -1580,7 +1574,7 @@ spdx-license-ids@^3.0.0:
   resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.4.tgz#75ecd1a88de8c184ef015eafb51b5b48bfd11bb1"
   integrity sha512-7j8LYJLeY/Yb6ACbQ7F76qy5jHkp0U6jgBfJsk97bwWlVUnUWsAgpyaCvo17h0/RQGnQ036tVDomiwoI4pDkQA==
 
-split-transform-stream@~0.1.1:
+split-transform-stream@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/split-transform-stream/-/split-transform-stream-0.1.1.tgz#825236a78d52a18ff912a631ad3034c15ded5fe3"
   integrity sha1-glI2p41SoY/5EqYxrTA0wV3tX+M=
@@ -1651,13 +1645,6 @@ string_decoder@~0.10.x:
   resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-0.10.31.tgz#62e203bc41766c6c28c9fc84301dab1c5310fa94"
   integrity sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
 
-string_decoder@~1.1.1:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/string_decoder/-/string_decoder-1.1.1.tgz#9cf1611ba62685d7030ae9e4ba34149c3af03fc8"
-  integrity sha512-n/ShnvDi6FHbbVfviro+WojiFzv+s8MPMHBczVePfUpDJLwoLT0ht1l4YwBCbi8pJAveEEdnkHyPyTP/mzRfwg==
-  dependencies:
-    safe-buffer "~5.1.0"
-
 strip-ansi@^4.0.0:
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-4.0.0.tgz#a8479022eb1ac368a871389b635262c505ee368f"
@@ -1720,6 +1707,14 @@ term-size@^1.2.0:
   dependencies:
     execa "^0.7.0"
 
+through2@2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.0.tgz#f41a1c31df5e129e4314446f66eca05cd6a30480"
+  integrity sha1-9BocMd9eEp5DFERvZuygXNajBIA=
+  dependencies:
+    readable-stream "~2.0.0"
+    xtend "~4.0.0"
+
 through2@~0.4.1, through2@~0.4.2:
   version "0.4.2"
   resolved "https://registry.yarnpkg.com/through2/-/through2-0.4.2.tgz#dbf5866031151ec8352bb6c4db64a2292a840b9b"
@@ -1727,14 +1722,6 @@ through2@~0.4.1, through2@~0.4.2:
   dependencies:
     readable-stream "~1.0.17"
     xtend "~2.1.1"
-
-through2@~2.0.0:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
-  integrity sha512-/mrRod8xqpA+IHSLyGCQ2s8SPHiCDEeQJSep1jqLYeEUClOFG2Qsh+4FU6G9VeqpZnGW/Su8LQGc4YKni5rYSQ==
-  dependencies:
-    readable-stream "~2.3.6"
-    xtend "~4.0.1"
 
 through@2, through@~2.3, through@~2.3.1:
   version "2.3.8"
@@ -2072,7 +2059,7 @@ xdg-basedir@^3.0.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-3.0.0.tgz#496b2cc109eca8dbacfe2dc72b603c17c5870ad4"
   integrity sha1-SWsswQnsqNus/i3HK2A8F8WHCtQ=
 
-xtend@^4.0.1, xtend@~4.0.1:
+xtend@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
   integrity sha1-pcbVMr5lbiPbgg77lDofBJmNY68=
@@ -2083,6 +2070,11 @@ xtend@~2.1.1:
   integrity sha1-bv7MKk2tjmlixJAbM3znuoe10os=
   dependencies:
     object-keys "~0.4.0"
+
+xtend@~4.0.0:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
+  integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
 
 yallist@^2.1.2:
   version "2.1.2"
