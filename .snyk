@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.1
+version: v1.14.1
 # ignores vulnerabilities until expiry date; change duration by modifying expiry date
 ignore:
   SNYK-JS-DOTPROP-543489:
@@ -7,5 +7,8 @@ ignore:
         reason: None given
   SNYK-JS-YARGSPARSER-560381:
     - alex > meow > yargs-parser:
+        reason: None given
+  SNYK-JS-TRIM-1017038:
+    - alex > remark-parse > trim:
         reason: None given
 patch: {}
