@@ -22,7 +22,7 @@ The image is based on node:10.14-alpine
 ```yaml
 alex:
   stage: linting
-  image: pipelinecomponents/alex:latest
+  image: registry.gitlab.com/pipeline-components/alex:latest
   script:
     - alex --why README.md
 ```
