@@ -217,10 +217,10 @@ acorn@^8.0.0:
   resolved "https://registry.yarnpkg.com/acorn/-/acorn-8.10.0.tgz#8be5b3907a67221a81ab23c7889c4c5526b62ec5"
   integrity sha512-F0SAmZ8iUtS//m8DmCTA0jlh6TDKkHQyK6xc6V4KDTyZKA9dnvX9/3sRTVQrWm79glUAZbnmmNcdYwUIHWVybw==
 
-alex@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/alex/-/alex-11.0.0.tgz#2580f9f9ad34e9a3e296da3ffc37ce2e2ee1b859"
-  integrity sha512-YbVCn9CZZDtH5wzGYt0mTergstBhGmm9jnGaG4UmO2nCQLD6swj5eqHIHnNKWAh62EtwItMai3dPNFbux6KOHw==
+alex@11.0.1:
+  version "11.0.1"
+  resolved "https://registry.yarnpkg.com/alex/-/alex-11.0.1.tgz#ac314ea97ca446b4edabf642762c3ff58febc58e"
+  integrity sha512-rKLBZxD/lvuykdC6XB8ma9YjDl46j9ayHROZUtC1yJ2jlGpoP7RZR1tBBSjtlr260ixIW6iCkqAnHzmti5Q6CQ==
   dependencies:
     "@types/mdast" "^3.0.0"
     "@types/nlcst" "^1.0.0"
