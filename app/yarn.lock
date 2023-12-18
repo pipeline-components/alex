@@ -178,9 +178,9 @@
     "@types/unist" "^2"
 
 "@types/node@*":
-  version "20.10.4"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.4.tgz#b246fd84d55d5b1b71bf51f964bd514409347198"
-  integrity sha512-D08YG6rr8X90YB56tSIuBaddy/UXAA9RKJoFvrsnogAum/0pmjkgi4+2nx96A330FmioegBWmEYQ+syqCFaveg==
+  version "20.10.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.10.5.tgz#47ad460b514096b7ed63a1dae26fad0914ed3ab2"
+  integrity sha512-nNPsNE65wjMxEKI93yOP+NPGGBJz/PoN3kZsVLee0XMiJolxSekEVD8wRwBUBqkwc7UWop0edW50yrCQW4CyRw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2145,9 +2145,9 @@ quick-lru@^6.1.1:
   integrity sha512-AAFUA5O1d83pIHEhJwWCq/RQcRukCkn/NSm2QsTEMle5f2hP0ChI2+3Xb051PZCkLryI/Ir1MVKviT2FIloaTQ==
 
 quotation@^2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/quotation/-/quotation-2.0.2.tgz#3de5c7cac6324ee3bee38108054f8f5e4e9d91e2"
-  integrity sha512-FeUlLe40ROXHVWLZkzmeR2PNYWdkvTXEXhW6FX8axRv1ODt8Gxed3APrE1Qb5i1n70ZzZGRmvs0jY3v/BRcJQQ==
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/quotation/-/quotation-2.0.3.tgz#b94c05128209a63b40b4e20e0f8f1a38adea7e0b"
+  integrity sha512-yEc24TEgCFLXx7D4JHJJkK4JFVtatO8fziwUxY4nB/Jbea9o9CVS3gt22mA0W7rPYAGW2fWzYDSOtD94PwOyqA==
 
 rc@1.2.8:
   version "1.2.8"
