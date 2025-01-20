@@ -158,9 +158,9 @@
   integrity sha512-hov8bUuiLiyFPGyFPE1lwWhmzYbirOXQNNo40+y3zow8aFVTeyn3VWL0VFFfdNddA8S4Vf0Tc062rzyNr7Paag==
 
 "@types/ms@*":
-  version "0.7.34"
-  resolved "https://registry.yarnpkg.com/@types/ms/-/ms-0.7.34.tgz#10964ba0dee6ac4cd462e2795b6bebd407303433"
-  integrity sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@types/ms/-/ms-2.1.0.tgz#052aa67a48eccc4309d7f0191b7e41434b90bb78"
+  integrity sha512-GsCCIZDE/p3i96vtEqx+7dBUGXrc7zeSK3wwPHIaRThS+9OhWIXRqzs4d6k1SVU8g91DrNRWxWUGhp5KXQb2VA==
 
 "@types/nlcst@^1.0.0":
   version "1.0.4"
@@ -170,16 +170,16 @@
     "@types/unist" "^2"
 
 "@types/node@*":
-  version "22.10.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.5.tgz#95af89a3fb74a2bb41ef9927f206e6472026e48b"
-  integrity sha512-F8Q+SeGimwOo86fiovQh8qiXfFEh2/ocYv7tU5pJ3EXMSSxk1Joj5wefpFK2fHTf/N6HKGSxIDBT9f3gCxXPkQ==
+  version "22.10.7"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.10.7.tgz#14a1ca33fd0ebdd9d63593ed8d3fbc882a6d28d7"
+  integrity sha512-V09KvXxFiutGp6B7XkpaDXlNadZxrzajcY50EuoLIpQ6WWYCSvf19lVIazzfIzQvhUN2HjX12spLojTnhuKlGg==
   dependencies:
     undici-types "~6.20.0"
 
 "@types/node@^18.0.0":
-  version "18.19.70"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.70.tgz#5a77508f5568d16fcd3b711c8102d7a430a04df7"
-  integrity sha512-RE+K0+KZoEpDUbGGctnGdkrLFwi1eYKTlIHNl2Um98mUkGsm1u2Ff6Ltd0e8DktTtC98uy7rSj+hO8t/QuLoVQ==
+  version "18.19.71"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.71.tgz#96d4f0a0be735ead6c8998c62a4b2c0012a5d09a"
+  integrity sha512-evXpcgtZm8FY4jqBSN8+DmOTcVkkvTmAayeo4Wf3m1xAruyVGzGuDh/Fb/WWX2yLItUiho42ozyJjB0dw//Tkw==
   dependencies:
     undici-types "~5.26.4"
 
@@ -2424,9 +2424,9 @@ spdx-expression-parse@^3.0.0:
     spdx-license-ids "^3.0.0"
 
 spdx-license-ids@^3.0.0:
-  version "3.0.20"
-  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.20.tgz#e44ed19ed318dd1e5888f93325cee800f0f51b89"
-  integrity sha512-jg25NiDV/1fLtSgEgyvVyDunvaNHbuwF9lfNV17gSmPFAlYzdfNBlLtLzXTevwkPj7DhGbmN9VnmJIgLnhvaBw==
+  version "3.0.21"
+  resolved "https://registry.yarnpkg.com/spdx-license-ids/-/spdx-license-ids-3.0.21.tgz#6d6e980c9df2b6fc905343a3b2d702a6239536c3"
+  integrity sha512-Bvg/8F5XephndSK3JffaRqdT+gyhfqIPwDHpX80tJrF8QQRYMo8sNMeaZ2Dp5+jhwKnUmIOyFFQfHRkjJm5nXg==
 
 split-transform-stream@0.1.1:
   version "0.1.1"
