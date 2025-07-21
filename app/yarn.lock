@@ -170,16 +170,16 @@
     "@types/unist" "^2"
 
 "@types/node@*":
-  version "24.0.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.0.13.tgz#93ed8c05c7b188a59760be0ce2ee3fa7ad0f83f6"
-  integrity sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==
+  version "24.0.15"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.0.15.tgz#f34fbc973e7d64217106e0c59ed8761e6b51381e"
+  integrity sha512-oaeTSbCef7U/z7rDeJA138xpG3NuKc64/rZ2qmUFkFJmnMsAPaluIifqyWd8hSSMxyP9oie3dLAqYPblag9KgA==
   dependencies:
     undici-types "~7.8.0"
 
 "@types/node@^18.0.0":
-  version "18.19.118"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.118.tgz#e8ad99b8fb0c350773dfd9c5acda1a4bfb84a688"
-  integrity sha512-hIPK0hSrrcaoAu/gJMzN3QClXE4QdCdFvaenJ0JsjIbExP1JFFVH+RHcBt25c9n8bx5dkIfqKE+uw6BmBns7ug==
+  version "18.19.120"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.19.120.tgz#07b3bd73875956d5281fa27e6d77a66415f7d455"
+  integrity sha512-WtCGHFXnVI8WHLxDAt5TbnCM4eSE+nI0QN2NJtwzcgMhht2eNz6V9evJrk+lwC8bCY8OWV5Ym8Jz7ZEyGnKnMA==
   dependencies:
     undici-types "~5.26.4"
 
