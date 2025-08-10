@@ -14,7 +14,6 @@
 ## Usage
 
 The image is for running alex, alex is installed in /app/ in case you need to customize the install before usage.
-The image is based on node:10.14-alpine
 
 ## Examples
 
